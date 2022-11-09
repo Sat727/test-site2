@@ -1,0 +1,75 @@
+body {
+    background-color: black;
+}
+#footer {
+    background-color: rgb(25, 67, 206);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+#info{
+    text-align: center;
+    position:fixed;
+  z-index: 15;
+  top: 25%;
+  left: 43%;
+  margin: -100px 0 0 -150px;
+}
+#top {
+    position: fixed;
+    top: 0;
+    position: fixed;
+    width: 100%;
+}
+h1 {
+    color:blueviolet;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-style: italic;
+}
+img {
+    border: 1px;
+    border-color: blue;
+}
+::selection {
+    color: aqua;
+    background-color: blue;
+}
+h2 {
+    background-color: aqua;
+    margin: 0;
+    color: blue;
+    text-align: center;
+}
+p {
+    color: darkblue;
+    font-size: 22px;
+    line-height: 1;
+}
+p b {
+    color: blueviolet;
+}
+p:hover {
+    color: crimson;
+}
+::marker {
+    color: blue;
+}
+ul.pp{
+    text-align: center;
+    color: aqua;
+}
+.resources a {
+    color: cyan;
+}
+.resources a:hover {
+    color: red;
+}
+button{
+    background-color: blue;
+    color: aqua;
+}
+/* a:hover {
+    color: rgb(160, 14, 116);
+    background-color: black;
+} */
