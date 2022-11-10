@@ -7,6 +7,9 @@ body {
     bottom: 0;
     width: 100%;
 }
+li:first-child {
+    font-size: 30px;
+}
 #info{
     text-align: center;
     position:fixed;
@@ -14,6 +17,11 @@ body {
   top: 25%;
   left: 43%;
   margin: -100px 0 0 -150px;
+  border-top: 3px dashed red;
+  border-bottom: 3px dashed red;
+}
+li:nth-child(2n) {
+    color: rgb(16, 134, 245);
 }
 #top {
     position: fixed;
@@ -61,9 +69,17 @@ ul.pp{
 }
 .resources a {
     color: cyan;
+    font-weight: bold;
+    text-decoration: underline rgb(2, 90, 161);
 }
+
 .resources a:hover {
     color: red;
+}
+a:active {
+    background-color: darkmagenta;
+    color: darkturquoise;
+    font-style: italic;
 }
 button{
     background-color: blue;
