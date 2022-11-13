@@ -1,27 +1,47 @@
 body {
     background-color: black;
+    height: auto;
 }
 #footer {
     background-color: rgb(25, 67, 206);
-    position: fixed;
+    position: absolute;
     bottom: 0;
     width: 100%;
+}
+.links {
+    background-color: rgb(25, 67, 206);
+}
+.links a {
+    color: aliceblue;
+}
+ul {
+    list-style-position: inside;
+}
+.main-content {
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    
+    margin: auto;
+
 }
 li:first-child {
     font-size: 30px;
 }
 #info{
+    margin-top: 100px;
     text-align: center;
-    position:fixed;
-  z-index: 15;
-  top: 25%;
-  left: 43%;
-  margin: -100px 0 0 -150px;
   border-top: 3px dashed red;
   border-bottom: 3px dashed red;
 }
 li:nth-child(2n) {
     color: rgb(16, 134, 245);
+}
+#info h1 {
+    padding-bottom: 15px;
+    border-bottom: 3px dashed red;
 }
 #top {
     position: fixed;
@@ -63,7 +83,8 @@ p:hover {
 ::marker {
     color: blue;
 }
-ul.pp{
+ul
+{
     text-align: center;
     color: aqua;
 }
@@ -84,6 +105,10 @@ a:active {
 button{
     background-color: blue;
     color: aqua;
+}
+.goals{
+    text-align: center;
+    border-bottom: 3px dashed red;
 }
 /* a:hover {
     color: rgb(160, 14, 116);
